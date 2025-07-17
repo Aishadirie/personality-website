@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+      margin: 0;
+        padding: 0;
+        }
+
+        /* Body styling */
+        body {
+          font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+              padding: 20px;
+                color: #333;
+                }
+
+                /* Title and description */
+                #title {
+                  text-align: center;
+                    font-size: 2rem;
+                      margin-bottom: 10px;
+                      }
+
+                      #description {
+                        text-align: center;
+                          margin-bottom: 30px;
+                            font-size: 1rem;
+                              color: #666;
+                              }
+
+                              /* Form container */
+                              form {
+                                background-color: #fff;
+                                  padding: 30px;
+                                    max-width: 600px;
+                                      margin: auto;
+                                        border-radius: 10px;
+                                          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                          }
+
+                                          /* Labels and inputs */
+                                          label {
+                                            display: block;
+                                              margin-top: 20px;
+                                                font-weight: bold;
+                                                }
+
+                                                input[type="text"],
+                                                input[type="email"],
+                                                input[type="number"],
+                                                select,
+                                                textarea {
+                                                  width: 100%;
+                                                    padding: 10px;
+                                                      margin-top: 8px;
+                                                        border-radius: 5px;
+                                                          border: 1px solid #ccc;
+                                                            font-size: 1rem;
+                                                            }
+
+                                                            /* Radio and checkbox spacing */
+                                                            input[type="radio"],
+                                                            input[type="checkbox"] {
+                                                              margin-right: 10px;
+                                                                margin-top: 10px;
+                                                                }
+
+                                                                /* Textarea styling */
+                                                                textarea {
+                                                                  resize: vertical;
+                                                                  }
+
+                                                                  /* Submit button */
+                                                                  #submit {
+                                                                    margin-top: 30px;
+                                                                      padding: 12px 20px;
+                                                                        background-color: #1d72b8;
+                                                                          color: white;
+                                                                            border: none;
+                                                                              border-radius: 6px;
+                                                                                font-size: 1rem;
+                                                                                  cursor: pointer;
+                                                                                    transition: background-color 0.3s;
+                                                                                    }
+
+                                                                                    #submit:hover {
+                                                                                      background-color: #155d8a;
+                                                                                      }
